@@ -1,0 +1,59 @@
+table, td, th {
+    border: 2px solid black; /*le agrego un borde a cada td y th*/
+    border-collapse: collapse; /*hago que los bordes se junten*/
+    text-align: center; /*hago que el texto quede centrado*/
+    font-weight: bold;  /*hago que el texto quede en negrita*/
+    font-family: Arial; /*le cambio la fuente al texto*/
+}
+
+#vertical {
+    writing-mode: vertical-rl; /*hago que el texto quede de forma vertical*/
+    text-orientation: upright; /*hago que las letras queden en su posicion normal*/
+    font-size: 20px; /*le cambio el tamaño de la fuente*/
+    letter-spacing: 10px; /*le agrego espacio entre las letras*/
+}
+
+th {
+    padding: 10px 10px 0 10px; /*le agrego un padding a los th*/
+}
+
+#titulo {
+    padding: 10px 10px 0 10px;  /*le agrego un padding al titulo*/
+    font-size: 30px; /*le cambio el tamaño de la fuente al titulo*/
+
+}
+
+th:hover{
+    background-color: rgb(255, 255, 136);  /*le cambio el color de fondo a los th cuando paso el mouse por encima*/
+
+}
+
+td {
+    padding: 10px 10px; /*le agrego un padding a los td*/
+    padding-bottom: 0; /*le quito el padding de abajo a los td*/
+}
+
+td:hover {
+    background-color: rgb(164, 165, 247); /*le cambio el color de fondo a los td cuando paso el mouse por encima*/
+}
+
+.dias {
+    font-size: 20px; /*le cambio el tamaño de la fuente a los dias*/
+    padding: 10px 10px 0 10px; /*le agrego un padding a los dias*/
+  
+    
+}
+.CTS {
+    background-color: rgb(164, 165, 247); /*le cambio el color de fondo a los td de CTS*/
+}
+
+.vacio {
+    background-color: rgb(187, 181, 181); /*le cambio el color de fondo a los td vacios*/
+}
+
+p{
+    font-family: italic; /*le cambio la fuente a cursiva*/
+    margin-top: 0;  /*le quito el margen de arriba a los p*/
+    font-weight: normal; /*le quito la negrita a los p*/
+
+}
